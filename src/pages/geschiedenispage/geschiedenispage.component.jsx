@@ -26,7 +26,6 @@ class Geschiedenispage extends React.Component {
     }
 
     render(){
-        console.log(this.state);
         const {allhistory} = this.state;
 
         return(
