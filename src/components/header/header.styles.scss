@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: left;
+    line-height: 25px;
+
+    .aanspreking {
+        padding: 30px 30px 0px;
+        font-size: 14px;
+        line-height: 0px;
+        margin: 15px 0px 0px 0px;
+        
+    }
+    .naam {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 10px;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 30px 0px;
+    }
+}

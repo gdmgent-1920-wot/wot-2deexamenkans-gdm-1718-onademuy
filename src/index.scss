@@ -1,0 +1,122 @@
+$green: #44C67B;
+$red: #D13000;
+$yellow: #FFC400;
+$grey: #C7C7C7;;
+$blue: #A3CDFF;
+$orange: #FF8900;
+$fontcolour: #464646;
+
+body {
+  //margin: 40px 30px 20px;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $fontcolour;
+  letter-spacing: 0.1em;
+}
+
+a{
+  color: $fontcolour;
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.titlebig {
+  font-size: 40px;
+  color: white;
+  font-weight: medium;
+  padding: 5px 0px 0px;
+  margin: 5px 0px 0px;
+}
+
+.aan {
+  background-color: $yellow;
+}
+
+.uit{
+  background-color: $grey;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+}
+
+.omschrijving {
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  padding: 15px 20px;
+  line-height: 0px;
+}
+
+.pagetitle{
+  padding: 35px;
+  box-shadow: 0px 4px 10px grey;
+}
+
+.green {
+  background-color: $green;
+}
+
+.red {
+  background-color: $red;
+  box-shadow: 0px 4px 10px grey;
+}
+
+.grey {
+  background-color: $grey;
+  animation: blinker 1.5s ease infinite;
+  box-shadow: 0px 4px 10px grey;
+}
+
+.grijs {
+  background-color: $grey;
+}
+
+.oranje {
+  background-color: $orange;
+}
+
+.yellow {
+  background-color: $yellow;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.back{
+  text-align: left;
+  margin: 10px 0px;
+  color: black;
+  font-size: 12px;
+  text-decoration: underline;
+} 
+
+.tablesettings{
+  margin: 20px 30px 30px;
+  font-size: 10px;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid $grey;
+  text-align: left;
+  padding: 8px;
+}
+

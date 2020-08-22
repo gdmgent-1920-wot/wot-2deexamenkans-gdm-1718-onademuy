@@ -1,0 +1,73 @@
+.weer {
+    background-color: #A3CDFF;
+    height: 180px;
+    padding: 15px 0px;
+    margin: 5px 30px 5px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: 0px 4px 10px grey;
+}
+
+.degrees {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0px;
+}
+
+.aantalgraden {
+    width: 30%;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    margin: 5px 5px 5px 30px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.minmax {
+    width: 70%;
+    margin: 5px 30px 5px 5px;
+    box-sizing: border-box;
+    padding: 5px 0px 0px 0px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.weersverw {
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    font-weight: 700;
+}
+
+.voorspelling {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 25px;
+}
+
+.element {
+    box-sizing: border-box;
+    margin: 8px 0px;
+    width: 25%;
+    .Dag {
+        font-size: 10px;
+        letter-spacing: 0.05em;
+    }
+    .Graden {
+        font-size: 14px;
+        margin: 2px;
+        letter-spacing: 0.05em;
+    }
+    .regen {
+        font-size: 8px;
+        letter-spacing: 0.05em;
+    }
+}
+
+.droplet {
+    width: 5px;
+    height: 5px;
+}
