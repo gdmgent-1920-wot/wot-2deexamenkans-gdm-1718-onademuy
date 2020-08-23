@@ -110,11 +110,11 @@ class Waterpage extends React.Component {
                     </form>
 
                     <form onSubmit={this.stopzetten} className= {stopzetten ? "changes aan" : "changes uit"}>
-                    {stopzetten ?
-                        <input type="submit" className="boodschap stopzetten rood" value="SYSTEEM UITGESCHAKELD"/>
-                    :
-                        <input type="submit" className="boodschap stopzetten groen" value="SYSTEEM AUTOMATISCH"/>
-                    }
+                        {stopzetten ?
+                            <input type="submit" className="boodschap stopzetten rood" value="SYSTEEM UITGESCHAKELD"/>
+                        :
+                            <input type="submit" className="boodschap stopzetten groen" value="SYSTEEM AUTOMATISCH"/>
+                        }
                     </form>
 
                     <div className="tussentitel">Laatste bijvulling</div>
