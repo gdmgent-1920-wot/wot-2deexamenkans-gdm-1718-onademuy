@@ -45,8 +45,7 @@ class Geschiedenispage extends React.Component {
                             <td>
                                 {JSON.stringify(item.datum.toDate().getDate())}/
                                 {JSON.stringify(item.datum.toDate().getMonth())}/
-                                {JSON.stringify(item.datum.toDate().getFullYear())} 
-                                {JSON.stringify(item.datum.toDate().getHours()).padStart(2, "0")}:
+                                {JSON.stringify(item.datum.toDate().getFullYear())} {JSON.stringify(item.datum.toDate().getHours()).padStart(2, "0")}:
                                 {JSON.stringify(item.datum.toDate().getMinutes()).padStart(2, "0")}
                             </td>
                             <td>{item.manier}</td>
